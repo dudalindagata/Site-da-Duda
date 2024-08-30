@@ -1,0 +1,65 @@
+body {
+    color: rgb(30, 95, 238);
+    background: rgb(193, 210, 236);
+    font-family: "DM Serif Text", serif;
+    margin-bottom: 100px;
+}
+
+header{
+    color: rgb(0, 60, 255);
+    border-bottom: solid 2px rgb(1, 55, 170);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(61, 42, 228);
+}
+
+.chamada {
+    background:rgb(178, 189, 226);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10px;
+
+}
+h1 {
+    font-size: 40px;
+ }
+
+ p {
+    font-size: 20px;
+ }
+  img {
+    height: 200px;
+  }
+  
+ .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+  }
+
+  .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+ .categoria-videos img {
+    opacity: 0,5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1,0;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
